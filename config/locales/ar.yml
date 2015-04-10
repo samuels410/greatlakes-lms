@@ -7928,7 +7928,7 @@ ar:
         reset_explanation: "إن إعادة ضبط طالب الاختبار سيؤدي إلى مسح كل المحفوظات لهذا الطالب، %{line_break}مما يسمح لك بعرض المساق كطالب جديد تمامًا."
         warning_title: "لقد قمت بتسجيل الدخول إلى عرض الطالب حاليًا"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "عرض كافة الحسابات"
       view_all_groups: "عرض كافة المجموعات"
@@ -7936,7 +7936,7 @@ ar:
     mobile_auth: 
       log_in_to_canvas: "تسجيل الدخول إلى Canvas"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: |-
       يوفر "دفتر درجات نتيجة إتقان التعلم" طريقة للمدرسين لعرض تقدم الطلاب والمساق بسرعة
       في نتائج التعلم للمساق. ويتم عرض النتائج بتنسيق يشبه دفتر الدرجات ويتم عرض تقدم

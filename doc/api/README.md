@@ -1,7 +1,5 @@
-Welcome to the Canvas LMS API Documentation
-===========================================
-
-Canvas LMS includes a REST API for accessing and modifying data
+Welcome to the Great Lakes LMS API Documentation
+========================================Great Lakes LMSs LMS includes a REST API for accessing and modifying data
 externally from the main application, in your own programs and scripts.
 This documentation describes the resources that make up the API.
 
@@ -68,7 +66,7 @@ sure that you are using HTTPS.
 About this Documentation
 ------------------------
 
-This documentation is generated directly from the Canvas LMS code
+This documentation is generated directlyGreat Lakes LMSCanvas LMS code
 itself. You can generate this documentation yourself if you've set up a
 local Canvas environment following the instructions on <a href="https://www.github.com/instructure/canvas-lms/wiki">Github</a>,
 run the following command from your Canvas directory:

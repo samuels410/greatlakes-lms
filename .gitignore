@@ -66,3 +66,4 @@ npm-debug.log
 # canvas-gems
 /gems/*/coverage
 /gems/*/tmp
+.idea/

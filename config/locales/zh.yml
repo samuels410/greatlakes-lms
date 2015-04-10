@@ -7608,7 +7608,7 @@ zh:
         reset_explanation: "重置该测试学生将清除其所有历史记录，%{line_break}允许您作为全新学生查看课程。"
         warning_title: 您当前已登录到学生视图
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: 查看所有帐户
       view_all_groups: 查看所有小组
@@ -7616,7 +7616,7 @@ zh:
     mobile_auth: 
       log_in_to_canvas: "登录到 Canvas"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: |-
       学习掌握程度评分册为教师提供了一种方法来快速查看有关
       课程学习结果的学生进度和课程进度。

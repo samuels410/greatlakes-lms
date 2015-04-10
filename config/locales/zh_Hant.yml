@@ -7559,7 +7559,7 @@ zh_Hant:
         reset_explanation: "重設測試學生將清除這個學生的所有歷史記錄，%{line_break} 允許您作為一個全新的學生檢視課程。"
         warning_title: 您目前已登入學生檢視表
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: 檢視所有帳戶
       view_all_groups: 檢視所有群組
@@ -7567,7 +7567,7 @@ zh_Hant:
     mobile_auth: 
       log_in_to_canvas: "登入 Canvas"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: 學習精通成績冊提供了一種方法，教師可以快速檢視課程的學習成果中的學生和課程進度。成果以成績冊般的形式呈現，學生的進步以數值評分顯示，以及以精通/接近精通/補修的形式顯示。
   learning_outcome: 
     no_comment: 無註解

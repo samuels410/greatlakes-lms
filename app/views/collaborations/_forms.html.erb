@@ -57,7 +57,7 @@ HEREDOC
       </div>
       <div id="collaborate_authorize_google_docs" class="collaboration_authorization" style="display: none; margin: 20px;">
         <% if @google_drive_upgrade %>
-          <%= t '#instructions.authorize_google_drive', "Before you can collaborate on documents, you need to authorize Canvas
+          <%= t '#instructions.authorize_google_drive', "Before you can collaborate on documents, you need to authorize Great Learning
             to access your Google Drive account:" %>
           <div class="button-container">
             <a class="btn button-default-action" href="<%= oauth_url(:service => :google_drive, :return_to => (request.url + "#add_collaboration")) %>"><%= t '#buttons.authorize_google_drive', "Authorize Google Drive Access" %></a>

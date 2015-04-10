@@ -7617,7 +7617,7 @@ en-AU:
         reset_explanation: "Resetting the test student will clear all history for this student, %{line_break}allowing you to view the course as a brand new student."
         warning_title: "You are currently logged into Student View"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "View all accounts"
       view_all_groups: "View all groups"
@@ -7625,7 +7625,7 @@ en-AU:
     mobile_auth: 
       log_in_to_canvas: "Log In To Great Lakes"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: |-
       Learning Mastery Markbook provides a way for teachers to quickly view student and course
       progress on course learning outcomes. Outcomes are presented in a Markbook-like

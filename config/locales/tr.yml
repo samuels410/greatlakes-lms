@@ -7665,7 +7665,7 @@ tr:
         reset_explanation: "Test öğrencisinin bilgilerini sıfırlamak, o öğrencinin tüm bilgilerini silerek %{line_break}dersi yeni bir öğrenci olarak görmenizi sağlar."
         warning_title: "Öğrenci görünümünde oturum açtınız"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "Tüm hesapları göster"
       view_all_groups: "Tüm grupları görüntüle"
@@ -7673,7 +7673,7 @@ tr:
     mobile_auth: 
       log_in_to_canvas: "Canvas'ta Oturum Aç"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: |-
       Öğrenme Yeterliliği Not Defteri öğretmenlerin dersin öğrenme çıktılarına göre öğrencileri ve 
       ders 

@@ -7678,7 +7678,7 @@ ru:
         reset_explanation: "Переустановка тест-студента очистит всю историю этого студента, %{line_break}, позволяя просматривать курс в качестве нового студента."
         warning_title: "В настоящее время вы зашли в систему как студент"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "Просмотр всех учетных записей"
       view_all_groups: "Просмотр всех групп"
@@ -7686,7 +7686,7 @@ ru:
     mobile_auth: 
       log_in_to_canvas: "Войти в систему Canvas"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: |-
       Табель успеваемости по усвоению обучения позволяет учителям быстро просматривать прогресс студента
       и курса по результатам обучения. Результаты представлены в формате табеля успеваемости,

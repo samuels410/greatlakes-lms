@@ -6572,14 +6572,14 @@ ko:
         reset: "학생 초기화"
         warning_title: "현재 학생 뷰로 로그인함"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "모든 계정 보기"
       view_all_groups: "모든 그룹 보기"
     mobile_auth: 
       log_in_to_canvas: "Canvas에 로그인"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_outcome: 
     no_comment: "의견 없음"
     no_description: "설명 없음"

@@ -7574,7 +7574,7 @@ de:
         reset_explanation: "Wenn Sie den Teststudenten zurücksetzen, löschen Sie seinen gesamten Verlauf %{line_break} und können den Kurs aus der Ansicht eines neuen Studenten ansehen."
         warning_title: "Momentan ist die Studentenansicht aktiv"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "Alle Konten anzeigen"
       view_all_groups: "Alle Gruppen anzeigen"
@@ -7582,7 +7582,7 @@ de:
     mobile_auth: 
       log_in_to_canvas: "Bei Canvas anmelden"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: |-
       Mithilfe des Notenbuchs für 'Leistungsziel' erreicht können Dozenten rasch den Fortschritt von Studenten und Kursen
       in Bezug auf die Lernergebnisse des Kurses anzeigen. Die Ergebnisse werden im Format eines Notenbuchs

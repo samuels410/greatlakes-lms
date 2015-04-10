@@ -7605,7 +7605,7 @@ pt:
         reset_explanation: "A redefinição do aluno de teste irá limpar todo o histórico relativo a este aluno, %{line_break}permitindo-lhe ver a disciplina como um aluno novo."
         warning_title: "Tem sessão iniciada na vista de aluno"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "Exibir todas as contas"
       view_all_groups: "Exibir todos os grupos"
@@ -7613,7 +7613,7 @@ pt:
     mobile_auth: 
       log_in_to_canvas: "Iniciar sessão no Canvas"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: |-
       O livro de notas de domínio de aprendizagem fornece aos professores uma forma de verem
       o progresso dos alunos e da disciplina em resultados de aprendizagem. Os resultados

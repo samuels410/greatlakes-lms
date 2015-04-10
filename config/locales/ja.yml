@@ -7609,7 +7609,7 @@ ja:
         reset_explanation: "テスト受講生をリセットすると、この受講生の履歴がすべてクリアされ、%{line_break}新しい受講生としてこのコースを表示できます。"
         warning_title: 現在、受講生ビューにログインしています
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: すべてのアカウントを表示
       view_all_groups: すべてのグループを表示
@@ -7617,7 +7617,7 @@ ja:
     mobile_auth: 
       log_in_to_canvas: "Canvas へのログイン"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: 講師は、学習の達成度の成績表を使用して、コース学習成果における受講生およびコースの進捗を簡単に表示できます。成果は成績表のような形式で表示され、受講生の進捗が、数字のスコアや達成/ほぼ達成/補習として表示されます。
   learning_outcome: 
     no_comment: コメントなし

@@ -155,7 +155,7 @@ def init
     sort_by  { |o| o.first }
   generate_swagger_json
 
-  options[:page_title] = "Canvas LMS REST API Documentation"
+  options[:page_title] = "Great Lakes LMS REST API Documentation"
 
   build_json_objects_map
   generate_assets

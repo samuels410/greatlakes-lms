@@ -94,7 +94,7 @@
                 <%= f.select :default_locale, [[no_language, nil]] + available_locales.invert.sort, {:selected => @context.default_locale}, {:class => 'locale'} %>
                 <%= render :partial => 'shared/locale_warning' %>
                 <p class="unbreakable"><%= mt :transifex_message, <<-TEXT, :transifex_url => "https://www.transifex.com/projects/p/canvas-lms/"
-Join the [Canvas Translation Community](%{transifex_url})
+Join the [Great Learning Translation Community](%{transifex_url})
 TEXT
                 %>
                 </p>
@@ -153,7 +153,7 @@ TEXT
                                               :value => @account.settings[:trusted_referers],
                                               :class => 'same-width-as-select',
                                               :placeholder => "https://example.edu" %>
-                      <p style="font-size: 0.9em;"><%= t("This is a comma separated list of URL's to trust.  Trusting any URL's in this list will bypass the CSRF token when logging in to Canvas.") %></p>
+                      <p style="font-size: 0.9em;"><%= t("This is a comma separated list of URL's to trust.  Trusting any URL's in this list will bypass the CSRF token when logging in to Great Learning.") %></p>
                     </td>
                   </tr>
 
@@ -254,7 +254,7 @@ TEXT
                       <div class="branding_section">
                         <%= settings.file_field :header_image, accept: 'image/png,image/gif,image/jpeg,image/svg' %>
                         <p style="font-size: 0.9em;">
-                          <%= t("The logo image in the top right Canvas header. 200x200 svg or png") %>
+                          <%= t("The logo image in the top right Great Learning header. 200x200 svg or png") %>
                         </p>
                         <% if @account.settings[:header_image] %>
                           <p><%= t("Current:") %></p>
@@ -452,7 +452,7 @@ as needed)") %>
                 <% if @account.account_authorization_config %>
                   <div>
                     <%= settings.check_box :canvas_authentication, :checked => @account.canvas_authentication? %>
-                    <%= settings.label :canvas_authentication, :en => "Canvas Authentication" %>
+                    <%= settings.label :canvas_authentication, :en => "Great Learning Authentication" %>
                   </div>
                 <% end %>
               <% end %>
@@ -553,7 +553,7 @@ as needed)") %>
                 @account.grants_right?(@current_user, :manage_site_settings) %>
             <fieldset id="add_sis_app_token">
               <legend><%= t("SIS Agent Token Authentication") %></legend>
-              <p style="font-size: 0.9em;"><%= t("This will allow you to authenticate Canvas for posting grades to SIS") %></p>
+              <p style="font-size: 0.9em;"><%= t("This will allow you to authenticate Great Learning for posting grades to SIS") %></p>
               <%= f.fields_for :settings do |settings| %>
                   <table class="formtable">
                     <tr>
@@ -749,7 +749,7 @@ acknowledge that you have read and agreed to the
     <div id="tab-notifications">
       <%= form_for :account, :url => account_url(@account), :html => {:method => :put, :id => "account_settings_notifications"} do |f| %>
         <h2><%= t(:email_notification_from_settings, 'E-mail Notification "From" Settings') %></h2>
-        <p><%= t(:email_notification_from_description, "This setting allows the Admin to brand or label the 'From' text on all notifications sent from Canvas for this Account.") %></p>
+        <p><%= t(:email_notification_from_description, "This setting allows the Admin to brand or label the 'From' text on all notifications sent from Great Learning for this Account.") %></p>
         <%= f.fields_for :settings do |settings| %>
           <div>
             <%= settings.radio_button :outgoing_email_default_name_option, 'default',
@@ -792,7 +792,7 @@ acknowledge that you have read and agreed to the
           </div>
           <div style='padding-left: 2em;'>
             <p>
-              <%= t('notifications.custom_name_description', 'If selected, this will replace all other branding sent in Canvas notifications.') %>
+              <%= t('notifications.custom_name_description', 'If selected, this will replace all other branding sent in Great Learning notifications.') %>
               <br/>
               <%= text_field_tag 'account[settings][outgoing_email_default_name]', @account.settings[:outgoing_email_default_name] %>
             </p>
@@ -840,7 +840,7 @@ acknowledge that you have read and agreed to the
             <tr>
               <td>
                 <b><%= t('notifications.external_services_warning_label', 'Pop-up Message Content:') %></b>
-                <blockquote><%= t('notifications.external_services_warning', 'Notice: Some notifications may contain confidential information. Selecting to receive notifications at an email other than your institution provided address may result in sending sensitive Canvas course and group information outside of the institutional system.')%></blockquote>
+                <blockquote><%= t('notifications.external_services_warning', 'Notice: Some notifications may contain confidential information. Selecting to receive notifications at an email other than your institution provided address may result in sending sensitive Great Learning course and group information outside of the institutional system.')%></blockquote>
               </td>
             </tr>
           </table>
@@ -991,7 +991,7 @@ acknowledge that you have read and agreed to the
             </tr>
             <% if @account.site_admin? %>
               <tr id="confirm_global_announcement_field">
-                <td colspan=2><input type="checkbox" id="confirm_global_announcement" name="confirm_global_announcement"> <%= label_tag :confirm_global_announcement, t(:confirm_global_announcement, "This announcement will be shown to *all* Canvas users. Confirm that you want to create it.", :wrapper => '<b>\1</b>') %></td>
+                <td colspan=2><input type="checkbox" id="confirm_global_announcement" name="confirm_global_announcement"> <%= label_tag :confirm_global_announcement, t(:confirm_global_announcement, "This announcement will be shown to *all* Great Learning users. Confirm that you want to create it.", :wrapper => '<b>\1</b>') %></td>
               </tr>
               <tr>
                 <td colspan=2>
@@ -1055,7 +1055,7 @@ acknowledge that you have read and agreed to the
                   <%= t(:interpolate_account_domain, "Enter \"{{ACCOUNT_DOMAIN}}\" to substitute the user's root account domain")  %>
                 </div>
                 <div>
-                  <%= t(:interpolate_user_id, "Enter \"{{CANVAS_USER_ID}}\" to substitute the user's unique Canvas ID")  %>
+                  <%= t(:interpolate_user_id, "Enter \"{{CANVAS_USER_ID}}\" to substitute the user's unique Great Learning ID")  %>
                 </div>
               </span>
             <% end %>

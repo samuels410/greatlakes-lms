@@ -7672,7 +7672,7 @@ pl:
         reset_explanation: "Zresetowanie uczestnika testowego wyczyści całą historię tego uczestnika, %{line_break} umożliwiając Ci przeglądanie kursu jako zupełnie nowy uczestnik."
         warning_title: "Obecnie jesteś zalogowany/-a w widoku uczestnika"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "Pokaż wszystkie konta"
       view_all_groups: "Pokaż wszystkie grupy"
@@ -7680,7 +7680,7 @@ pl:
     mobile_auth: 
       log_in_to_canvas: "Zaloguj w systemie Canvas"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: |-
       Dzienniczek nauki poziomu biegłości umożliwia nauczycielom szybki podgląd uczestników oraz poczyniony postęp
       w wynikach nauczania. Wyniki są przedstawiane w formacie podobnym do dzienniczka

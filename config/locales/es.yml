@@ -7572,7 +7572,7 @@ es:
         reset_explanation: "Al restablecer al alumno de prueba se borrará todo el historial de este alumno, %{line_break} permitiendo que usted vea el curso como un alumno nuevo."
         warning_title: "Ha iniciado sesión en vista de alumno"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "Ver todas las cuentas"
       view_all_groups: "Ver todos los grupos"
@@ -7580,7 +7580,7 @@ es:
     mobile_auth: 
       log_in_to_canvas: "Iniciar sesión en Canvas"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: "El libro de calificaciones de dominio del aprendizaje representa el modo en el que los profesores pueden ver de un vistazo el progreso del curso y de los alumnos en los resultados de aprendizaje de los cursos. Los resultados se presentan en un formato similar al de los libros de calificaciones y el progreso del alumno aparece tanto en el formato de puntuación numérica como clasificado como dominado/casi dominio/medidas correctoras."
   learning_outcome: 
     no_comment: "Sin Comentario"

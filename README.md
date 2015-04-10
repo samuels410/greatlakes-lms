@@ -1,4 +1,4 @@
-Canvas LMS
+Great Lakes LMS
 ======
 
 Canvas is a new, open-source LMS by Instructure Inc. It is released under the

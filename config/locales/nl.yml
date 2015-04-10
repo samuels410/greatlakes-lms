@@ -7584,7 +7584,7 @@ nl:
         reset_explanation: "Door de toetscursist te resetten zal de hele geschiedenis van deze cursist opgeruimd worden %{line_break}zodat je de cursus als een totaal nieuwe leerling kunt bekijken."
         warning_title: "Je bent momenteel aangemeld in de weergave voor de cursist"
     head: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
     menu: 
       view_all_accounts: "Alle accounts bekijken"
       view_all_groups: "Alle groepen bekijken"
@@ -7592,7 +7592,7 @@ nl:
     mobile_auth: 
       log_in_to_canvas: "Aanmelden op Canvas"
     styleguide: 
-      default_page_title: "Canvas LMS"
+      default_page_title: "Great Lakes LMS"
   learning_mastery_gradebook_description: "De cijferlijst bekwaam leren biedt een manier aan docenten om snel de voortgang van cusrsist en cursus  \n\
       op het gebied van leerresultaten te bekijken. Resultaten worden in een cijferlijst-achtige \n\
       formaat gepresenteerd en voortgang van cursist wordt als een numerieke score en als bekwaam/bijna \n\
