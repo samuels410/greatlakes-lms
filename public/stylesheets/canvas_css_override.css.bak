@@ -1,0 +1,30 @@
+#header{background:#345E6A;}
+
+#header-logo,#header.no-user #header-logo{background: url("../images/canvas/login_logo.jpg?v1") no-repeat scroll 0 0 transparent;
+bottom: 5px;
+background-size: 175px 59px;
+height: 60px;
+left: 12px;
+width: 175px;
+position: absolute;text-indent:-9999px}
+/*#header-logo:hover,#header.no-user #header-logo:hover{background:url("../images/canvas/header_beacon_logo.jpg?v1") no-repeat scroll 0 0 transparent;background-size: 160px 40px;bottom:11px;height:40px;left:12px;width:160px;position:absolute;text-indent:-9999px}*/
+#header-logo-secondary{display:none;background:url("../images/canvas/header_beacon_logo.jpg") no-repeat;width:135px;height:26px;right:26px;bottom:6px;position:absolute}
+#menu{margin-left:200px}
+.menu-item .menu-item-title,.menu-item .menu-item-no-drop{color:#fff;text-shadow:none}
+#header-logo.original,#header.no-user #header-logo.original{bottom:12px}
+#header-inner{padding-top:26px;position:relative}
+#identity{margin:0;padding:0;list-style:none;float:right;font-size:12px;margin-right:13px;margin-bottom:4px;padding:0 11px;background:transparent url("../images/canvas/top_bar_beacon_bg.png") repeat-x;box-shadow:rgba(0,0,0,0.3) 1px 1px 1px;border-bottom-left-radius:6px;border-bottom-right-radius:5px;border:1px solid rgba(0,0,0,0.3);border-top:0}
+body.modal #modal-box{background-color:#fff !important}
+#modal-box.login-box{background-color:#fff !important}
+body.modal #modal-box.login-box{height:435px;width:610px;color:#fff;background:#345E6A !important}
+body.modal #modal-box.login-box a{color:#2784A0 !important}                                                                                                                                                                                       
+body.modal #modal-box .button,body.modal #login-box .button{background-color:#2a488e !important;background-image:none !important;border-color:#2a488e}
+#login_form .btn-primary,#login_form .btn-primary:hover{background-color:#4183c4;background-image:none;border:none !important}body.modal #modal-box.login-box h1,body.modal #modal-box.login-box .h1{height:140px;margin:0 0 50px;background-color:transparent;background-image:url("../images/canvas/login_logo.jpg?v1");background-size: 200px 85px;background-repeat:no-repeat;background-position:68px 46px;text-indent:-999em}
+body.modal #modal-box.login-box h2,body.modal #modal-box.login-box .h2{width: 80%;padding: 0 0 0 0;margin:50px auto;background-color:transparent;background-image:none;border-bottom: 0px;}
+body.modal #modal-box h2:after, body.modal #modal-box .h2:after {
+    content: " ";
+    display: block;
+    border-top: 0px solid #dddddd;
+    border-bottom: 0px solid white;
+    height: 0;
+}

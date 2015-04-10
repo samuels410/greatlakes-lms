@@ -7674,7 +7674,7 @@ en:
       view_all_groups: "View all groups"
       view_all_or_customize: "View All or Customize"
     mobile_auth: 
-      log_in_to_canvas: "Log In To Canvas"
+      log_in_to_canvas: "Log In To Great Lakes"
     styleguide: 
       default_page_title: "Canvas LMS"
   learning_mastery_gradebook_description: |-
@@ -11364,7 +11364,7 @@ en:
       password: Password
       sending: Sending...
     new: 
-      page_title: "Log In to Canvas"
+      page_title: "Log In to Great Lakes"
     notices: 
       mfa_complete: "Multi-factor authentication configured"
     oauth2_auth: 
